@@ -23,11 +23,11 @@ jobs:
           - windows-latest
 
         sm_version:
-          - "1.10"
+          - "1.11"
 
         include:
-          - sm_version: "1.10"
-            branch: "1.10-dev"
+          - sm_version: "1.11"
+            branch: "master"
 
           - os: ubuntu-latest
             os_short: linux
